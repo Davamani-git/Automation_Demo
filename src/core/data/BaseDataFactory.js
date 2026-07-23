@@ -5,7 +5,7 @@ class BaseDataFactory {
      * Example: Guardrail_1721263456789
      */
     generateName(prefix = 'Automation') {
-        return `${prefix}_${Date.now()}`;
+        return `${prefix}${Date.now()}`;
     }
 
     /**
